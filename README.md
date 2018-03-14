@@ -1,6 +1,11 @@
 # ResNet-18-Caffemodel-on-ImageNet
 ## Accuracy
-ResNet-18 Caffemodel @ilsvrc12 shrt 256 with Top-1 `69%` Top-5 `89%`<br>
+We reported the test accuracy on **ImageNet (ILSVRC2012 Validation Set)**.    
+
+DataSet | Top-1 | Top-5 | Loss
+------------ | ------------- | ------------- | -------------
+Both256 | 67.574% | 88.1001% | 1.33896
+Shrt256 | **69.0801%** | **89.0321%** | **1.2711**
 
 ## shrt 256
 Augmented training and testing sample:  
